@@ -9,24 +9,24 @@
     /*from 5-6*/var d06=new Date(d05); d06.setMinutes(d06.getMinutes()+60); var d66=d06.getHours(); var d66m=d06.getMinutes();
     /*break 7*/var d07=new Date(d06);d07.setMinutes(d07.getMinutes() + 15); var d77=d07.getHours(); var d77m=d07.getMinutes();
     
- console.log( "period*("+(d11)+":"+d11m+") "+"to ("+(d22)+":"+d22m+") "+"sum ("+"1.00"+")");
+/* console.log( "period*("+(d11)+":"+d11m+") "+"to ("+(d22)+":"+d22m+") "+"sum ("+"1.00"+")");
 console.log( "break--"+"("+(d22)+":"+(d22m)+")"+" to "+"("+(d33)+":"+(d33m)+")"+" sum ("+"0.25"+")\n");
 console.log( "period*("+(d33)+":"+d33m+") "+"to ("+(d44)+":"+d44m+") "+"sum ("+"1.00"+")");
 console.log( "break--"+"("+(d44)+":"+(d44m)+")"+" to "+"("+(d55)+":"+(d55m)+")"+" sum ("+"0.25"+")\n"); 
 
 console.log( "period*("+(d55)+":"+d55m+") "+"to ("+(d66)+":"+d66m+") "+"sum ("+"1.00"+")");
-console.log( "break--"+"("+(d66)+":"+(d66m)+")"+" to "+"("+(d77)+":"+(d77m)+")"+" sum ("+"0.25"+")\n"); 
+console.log( "break--"+"("+(d66)+":"+(d66m)+")"+" to "+"("+(d77)+":"+(d77m)+")"+" sum ("+"0.25"+")\n"); */
 
 // afternoon
 
-/*console.log( "period*("+(d11-12)+":"+d11m+") "+"to ("+(d22-12)+":"+d22m+") "+"sum ("+"1.00"+")");
+console.log( "period*("+(d11-12)+":"+d11m+") "+"to ("+(d22-12)+":"+d22m+") "+"sum ("+"1.00"+")");
 console.log( "break--"+"("+(d22-12)+":"+(d22m)+")"+" to "+"("+(d33-12)+":"+(d33m)+")"+" sum ("+"0.25"+")\n");
 
 console.log( "period*("+(d33-12)+":"+d33m+") "+"to ("+(d44-12)+":"+d44m+") "+"sum ("+"1.00"+")");
 console.log( "break--"+"("+(d44-12)+":"+(d44m)+")"+" to "+"("+(d55-12)+":"+(d55m)+")"+" sum ("+"0.25"+")\n");
 
 console.log( "period*("+(d55-12)+":"+d55m+") "+"to ("+(d66-12)+":"+d66m+") "+"sum ("+"1.00"+")");
-console.log( "break--"+"("+(d66-12)+":"+(d66m)+")"+" to "+"("+(d77-12)+":"+(d77m)+")"+" sum ("+"0.25"+")\n");*/
+console.log( "break--"+"("+(d66-12)+":"+(d66m)+")"+" to "+"("+(d77-12)+":"+(d77m)+")"+" sum ("+"0.25"+")\n");
 
 /*  01 p.m. 1300  
     02 p.m. 1400
